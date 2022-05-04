@@ -1,0 +1,7 @@
+section._users-list ul li {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin: 5px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}

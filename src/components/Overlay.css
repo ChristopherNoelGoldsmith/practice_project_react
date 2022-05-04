@@ -1,0 +1,27 @@
+.overlay {
+  position: fixed;
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.overlay.vis p {
+  opacity: 1;
+  padding: 5% 10%;
+  border-radius: 10px;
+  border: 2px salmon solid;
+  background: rgba(255, 68, 22, 0.8);
+  transform: scale(1);
+  transition: all 0.5s ease-in-out;
+}
+
+.overlay p {
+  opacity: 0;
+  transform: scale(0);
+  transition: all 0.5s ease-in-out;
+}

@@ -1,0 +1,33 @@
+form.input-form {
+  display: flex;
+  flex-direction: column;
+}
+form.input-form figure {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin: 5px;
+  padding: 5px;
+}
+form.input-form figure > * {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+form.input-form figure input {
+  color: black;
+  border: none;
+  margin: 5px;
+  padding: 5px;
+  background: seashell;
+}
+form.input-form button {
+  border: none;
+  font-size: 1.5rem;
+  font-weight: 500;
+  background-color: purple;
+  margin-top: 10px;
+  justify-self: left;
+  margin: 5px;
+  width: 20%;
+  height: 30px;
+}
